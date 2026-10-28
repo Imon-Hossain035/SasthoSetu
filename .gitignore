@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables & local secrets
+.env
+*.env
+.env.*
+!.env.example
+
+# SQLite local databases (Contains local patient records)
+*.db
+*.sqlite
+*.sqlite3
+
+# Log files & diagnostics
+*.log
+logs/
+*.log.*
+
+# PyInstaller / Packaging build artifacts
+build/
+dist/
+SasthoSetu_Release/
+SasthoSetu_Final/
+*.exe
+*.spec
+!SasthoSetu.spec
+
+# IDE & Editor temporary files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Operating System temporary files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Testing & temporary files
+.pytest_cache/
+.coverage
+htmlcov/
+*.bak
+*.tmp
+*.temp

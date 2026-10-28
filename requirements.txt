@@ -1,0 +1,9 @@
+# Core Desktop GUI Framework
+customtkinter>=5.2.0
+
+# Gemini API & Environment Configuration (Prompt 12)
+google-genai>=2.0.0
+python-dotenv>=1.0.0
+
+# Desktop Application Packaging (Prompt 20)
+pyinstaller>=6.0.0
